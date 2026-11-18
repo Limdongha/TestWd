@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <!-- 검색엔진에 노출되지 않도록 -->
+  <meta name="robots" content="noindex, nofollow">
+  <title>동하 ♥ 상은 결혼합니다</title>
+
+  <!-- 카톡/문자 공유 미리보기 (배포 후 실제 값으로 수정)
+       og:image는 JPG/PNG 절대주소여야 합니다. 예: https://아이디.github.io/mobile_wedding/images/og.jpg -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="동하 ♥ 상은 결혼합니다">
+  <meta property="og:description" content="2027년 6월 5일 토요일 오후 4시 20분 · 더컨벤션 영등포 2층 다이너스티홀">
+  <meta property="og:image" content="images/og.jpg">
+  <meta name="description" content="2027년 6월 5일 토요일 오후 4시 20분 · 더컨벤션 영등포 2층 다이너스티홀">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <section id="cover" class="cover"></section>
+    <section id="greeting" class="section reveal"></section>
+    <section id="calendar" class="section section--tint reveal"></section>
+    <section id="gallery" class="section reveal"></section>
+    <section id="location" class="section section--tint reveal"></section>
+    <section id="accounts" class="section reveal"></section>
+    <section id="rsvp" class="section section--tint reveal" hidden></section>
+    <footer id="footer" class="footer"></footer>
+  </main>
+
+  <div id="lightbox" class="lightbox" hidden>
+    <button class="lb-close" aria-label="닫기">&times;</button>
+    <button class="lb-prev" aria-label="이전 사진">&#8249;</button>
+    <img alt="">
+    <button class="lb-next" aria-label="다음 사진">&#8250;</button>
+    <div class="lb-count"></div>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
